@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a30ca0dc.css",
+    "main.js": "./static/js/main.f9977033.js",
+    "static/media/LibreFranklin-LightItalic.ttf": "./static/media/LibreFranklin-LightItalic.983b014bb7409880daf6.ttf",
+    "static/media/LibreFranklin-SemiBold.ttf": "./static/media/LibreFranklin-SemiBold.401b0bec09f5bb1146c4.ttf",
+    "static/media/LibreFranklin-Light.ttf": "./static/media/LibreFranklin-Light.408a7e8c603efc2e5ec2.ttf",
+    "static/media/LibreFranklin-Bold.ttf": "./static/media/LibreFranklin-Bold.aa0d24a2c935c27edb71.ttf",
+    "static/media/illustration-dashboard.png": "./static/media/illustration-dashboard.f9aaf3db81c10cfaff45.png",
+    "static/media/logo.svg": "./static/media/logo.7e09371f05c7e00fddccee34a9deac87.svg",
+    "static/media/instagram.svg": "./static/media/instagram.29b6453f2a43acba6c04abee03627574.svg",
+    "static/media/twitter.svg": "./static/media/twitter.c99ba5315fa6f675b9e67464e7efdc28.svg",
+    "index.html": "./index.html",
+    "static/media/facebook.svg": "./static/media/facebook.ea4ca4db8e65eba0cc88df8b1a6944f2.svg",
+    "main.a30ca0dc.css.map": "./static/css/main.a30ca0dc.css.map",
+    "main.f9977033.js.map": "./static/js/main.f9977033.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a30ca0dc.css",
+    "static/js/main.f9977033.js"
+  ]
+}
