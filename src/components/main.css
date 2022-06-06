@@ -1,0 +1,135 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7.55em;
+}
+
+main > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4.25em;
+    width: 17.6em;
+}
+
+form > input {
+    /* align-items: center; */
+    padding-left: 2.7em;
+    padding-right: 2.7em;
+    font-size: 0.75em;
+    font-family: "LibreFranklin";
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    border-radius: 2em;
+    border: 0.5px solid var(--Pale-Blue);
+    color: var(--Very-Dark-Blue);
+}
+
+form > input.errorInput {
+    border-color: var(--Light-Red);
+}
+
+input::-webkit-input-placeholder{
+    color:var(--Pale-Blue);
+}
+  
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:var(--Pale-Blue);
+}
+  
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:var(--Pale-Blue);
+}
+  
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+    color:var(--Pale-Blue);
+}
+
+input:focus {
+    outline: 0;
+    /* border: 0.5px solid var(--Light-Red); */
+}
+
+form > button {
+    margin-top: 0.9em;
+    padding-top: 1.1em;
+    padding-bottom: 1.2em;
+    border-radius: 2em;
+    border: none;
+    font-size: 0.7em;
+    font-weight: 600;
+    font-family: "LibreFranklin";
+    background-color: var(--Blue);
+    color: white;
+    box-shadow: 0 8px 10px 0 var(--Pale-Blue);
+    width: 100%;
+}
+
+form > .error {
+    margin-top: 0.75em;
+    font-size: 0.5em;
+    transform: scale(0.87);
+    color: var(--Light-Red);
+    margin-bottom: 1.5em;
+    font-style: italic;
+}
+
+form.errorForm {
+    margin-bottom: 2.23em;
+}
+
+main > img {
+    width: 20.03em;
+}
+
+@media (min-width: 800px) {
+    main {
+        margin-bottom: 4.6em;
+    }
+    main > img {
+        width: 40em;
+    }
+
+    main > form {
+        position: relative;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 5.3em;
+    }
+
+    form > input {
+        flex: 1.84;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 1.03em;
+        padding-left: 1.8em;
+        border-width: 1.6px;
+    }
+
+    form > button {
+        margin-top: 0;
+        margin-left: 1em;
+        padding-top: 1.06em;
+        padding-bottom: 1.06em;
+        flex: 1;
+        font-size: 1em;
+        cursor: pointer;
+    }
+
+    form > button:hover {
+        filter: opacity(80%);
+    }
+
+    form.errorForm > p {
+        position: absolute;
+        top: 3.6em;
+        left: 1.1em;
+        font-size: 0.9em;
+    }
+
+    form.errorForm {
+        margin-bottom: 5.3em;
+    }
+}

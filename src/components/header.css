@@ -1,0 +1,46 @@
+header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+header > img {
+    height: 1.01em;
+    margin-bottom: 2.25em;
+}
+
+header > h1 {
+    font-size: 1.37em;
+    font-weight: 300;
+    margin-bottom: 0.83em;
+    color: var(--Gray);
+}
+
+header > h1 > span {
+    font-weight: 700;
+    color: var(--Very-Dark-Blue);
+}
+
+header > p {
+    font-size: 0.6em;
+    color: var(--Very-Dark-Blue);
+}
+
+@media (min-width: 800px) {
+    header {
+        margin-bottom: 2.5em;
+    }
+    header > img {
+        height: 1.6em;
+        margin-bottom: 2.9em;
+    }
+
+    header > h1 {
+        font-size: 3em;
+        margin-bottom: 0.35em;
+    }
+
+    header > p {
+        font-size: 1.25em;
+        font-weight: 300;
+    }
+}
