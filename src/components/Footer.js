@@ -1,7 +1,7 @@
 import "./footer.css";
-import { ReactComponent as Facebook } from '../images/facebook.svg';
-import { ReactComponent as Twitter } from '../images/twitter.svg';
-import { ReactComponent as Instagram } from '../images/instagram.svg';
+import { ReactComponent as Facebook } from '../images/facebook-f-brands.svg';
+import { ReactComponent as Twitter } from '../images/twitter-brands.svg';
+import { ReactComponent as Instagram } from '../images/instagram-brands.svg';
 
 function Footer() {
     return (
